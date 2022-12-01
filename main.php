@@ -21,7 +21,7 @@
     include_once __FUNCTIONS__.'AutoLoader.fun.php';
 
     $threadTasks = array(
-        "PortListener" => __SRC__.'ThreadedTasks'.SPRTR.'portListener.thr.php',
+        "SocketListener" => __SRC__.'ThreadedTasks'.SPRTR.'socketListener.thr.php',
         "SendToSocket" => __SRC__.'ThreadedTasks'.SPRTR.'sendToSocket.thr.php'
     );
 
