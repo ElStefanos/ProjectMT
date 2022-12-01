@@ -5,7 +5,7 @@ namespace Threads;
 
     use \parallel\runtime;
 
-    class StartThread {
+    class StartThread extends CreateThread{
         private int $id;
         private array $proceses;
         private string $process_id;
@@ -40,7 +40,7 @@ namespace Threads;
             printf("\033[32m".$stamp." Starting threads..\033[0m\n");
             $future_id = 1;
             foreach ($this->proceses as $task => $job) {
-                ${$task} = new runtime();
+                ${$task} = new Runtime();
                 foreach ($job as $key => $value) {
                     $stamp = '[NOTIFICATION]['.strtoupper(date('D, d M Y H:i:s')).'] ';
                     
