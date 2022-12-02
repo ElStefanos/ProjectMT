@@ -16,7 +16,7 @@ ___Needed before installation:___
 
 # SETUP
 
-1. Extract to desired diretory
+1. Extract or git to desired directory
 2. Open terminal and run ```cd <directory>```
 3. Follow the steps bellow
 
