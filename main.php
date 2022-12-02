@@ -3,7 +3,6 @@
 
     use CheckFiles\FileCheck;
     use DataBase\DataBase;
-    use LoadExtensions\ExtensionLoader;
     use PortListener\PortListener;
     use Threads\CreateThread;
     use Threads\StartThread;
@@ -28,7 +27,6 @@
     $dataBase = new DataBase;
     $createThreads = new CreateThread;
     $checkFiles = new FileCheck;
-    $loadExtensions = new ExtensionLoader;
     $conn = $dataBase->dbConnect();
     $startThreads = new StartThread($threadTasks, true);
     $startThreads->startThreadTask();
