@@ -33,7 +33,8 @@ ___Then:___
 ```
 sudo ./install.sh
 ```
-Wait for PHP to build
+Wait for PHP to build.
+
 Message will be shown on complete. After that build process for MtManager will automatically start. If you want to contribute to the project. We suggest to make a second copy of the directory.
 
 ### ON UPDATE
