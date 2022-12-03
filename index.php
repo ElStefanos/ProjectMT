@@ -7,7 +7,7 @@
     use Threads\CreateThread;
     use Threads\StartThread;
 
-    printf("Project MT\n");
+    printf("Project MT\n\n");
     printf("\nPaths: \n");
     printf(__ROOT__.PHP_EOL);
     printf(__SRC__.PHP_EOL);
@@ -17,7 +17,7 @@
 
 
     
-    include_once __FUNCTIONS__.'AutoLoader.fun.php';
+    include_once __INCLUDES__.'AutoLoader.inc.php';
 
     $threadTasks = array(
         "SocketListener" => __SRC__.'ThreadedTasks'.SPRTR.'socketListener.thr.php',

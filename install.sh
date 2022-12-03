@@ -28,3 +28,15 @@ sudo pecl install parallel
 
 cd ../
 sudo rm -r ./php-src-php-8.1.13
+
+sudo mv ./php.ini /usr/local/lib/php.ini
+
+clear
+
+echo "Install complete"
+
+echo "Automatic build will start in 5 seconds..."
+
+sleep 5
+
+sudo ./build.sh

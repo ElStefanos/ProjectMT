@@ -20,7 +20,7 @@
             $this->bind = new bindSocket($this->port, $this->host);
             $this->comm = new communicatorSocket($this->port, $this->host);
             $this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
-            $this->listener = new socketListener;
+            $this->listener = new socketListener($this->port, $this->host);
         }
 
         public function socketListener() {
