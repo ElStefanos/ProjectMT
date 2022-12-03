@@ -8,8 +8,6 @@ function LoadClass($classname) {
 
         include_once  $fullPath;
 
-        printf("Class loaded ".$class."\n");
-
         return true;
 
     } else {
