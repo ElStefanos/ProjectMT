@@ -2,6 +2,7 @@
 
 clear
 
+sudo mv ./php.ini /usr/local/lib/php.ini
 
 mkdir MtManager-22.12.0a
 
